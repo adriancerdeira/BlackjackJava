@@ -91,6 +91,6 @@ public enum Card {
 
     @Override
     public String toString() {
-        return "[" + this.suit + " / " + this.rank + " / " + this.value + "]";
+        return "[" + this.suit + " | " + this.rank + " | " + this.value + "]";
     }
 }
